@@ -16,9 +16,15 @@ public class ejercicio12 {
         
         
     }
+// prueba con for común:
+//    public static void mostrarPrecios(double[] array){
+//        for (int i=0; i <array.length; i++){
+//            System.out.println("Precio: $"+array[i]);
+//        }
+//    }
     public static void mostrarPrecios(double[] array){
-        for (int i=0; i <array.length; i++){
-            System.out.println("Precio: $"+array[i]);
+        for (double precio : array){
+            System.out.println("Precio: $"+precio);
         }
     }
 }
